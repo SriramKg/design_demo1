@@ -1,0 +1,93 @@
+@font-face {
+  font-family: Inter;
+  src: url(./assets/fonts/Inter-VariableFont_slnt\wght.ttf);
+}
+
+@font-face {
+  font-family: Inter_ExtraBold;
+  src: url(./assets/fonts/static/Inter-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Inter_Regular;
+  src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: Inter_Bold;
+  src: url(./assets/fonts/static/Inter-Bold.ttf);
+}
+
+* {
+  font-size: 15px;
+  font-family: Inter;
+  margin: 10px;
+  color: hsl(236, 13%, 42%);
+}
+h1 {
+  font-family: Inter_ExtraBold;
+  font-weight: 700;
+  font-size: xx-large;
+  color: hsl(240, 100%, 5%);
+}
+p {
+    font-family: Inter_Regular;
+    font-weight: 400;
+}
+.full{
+    margin: 40px;
+}
+.img_class{
+    margin: 0;
+    width: 100%;
+}
+.header_div {
+  display: flex;
+  justify-content: space-between;
+}
+.ul_class {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+.ul_class > li {
+    font-family: Inter_Regular;
+}
+.ultra_box {
+  display: flex;
+}
+.main_class_1 {
+  display: flex;
+}
+.article_class {
+  display: flex;
+}
+.side_div{
+    padding: 20px 15px;
+    background-color: hsl(240, 100%, 5%);
+}
+.side_div > h1 {
+    color: hsl(35, 77%, 62%);
+    font-family: Inter_ExtraBold;
+}
+.side_div1{
+    margin: 0;
+}
+.side_div1 > h2 {
+    color: hsl(36, 100%, 99%);
+    font-family: Inter_ExtraBold;
+}
+.article_class1{
+    display: flex;
+}
+
+.article_subclass1 > h1 {
+    color: hsl(236, 13%, 42%);
+}
+.article_subclass1 > h3 {
+    color: hsl(240, 100%, 5%);
+    font-family: Inter_ExtraBold;
+}
+#btn1 {
+  background-color: hsl(5, 85%, 63%);
+  color: hsl(36, 100%, 99%);
+  padding: 10px 30px;
+}
